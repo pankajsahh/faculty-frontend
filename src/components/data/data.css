@@ -1,0 +1,19 @@
+.navi {
+    border: 1px solid black;
+    padding: 9px;
+    color: black;
+    border-radius: 5px;
+    margin: 5px 0;
+ }
+ .navi:hover{
+     cursor: pointer;
+     transition: 0.5s;
+     border-radius: 5px;
+     color: white;
+     background: #20bcff8f;
+ }
+ .borderI{
+     border: 1.5px solid #20bcff !important;
+     margin-left: 8px !important;
+     border-radius: 10px !important;
+ }

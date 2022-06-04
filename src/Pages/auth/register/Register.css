@@ -1,0 +1,54 @@
+.register_biggi{
+    width: 100vw;
+    height: 100vh;
+}
+.signup_container{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 19pc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #dbdbdb2a;
+  
+}
+.signup{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.719);
+    padding: 10px 50px;
+
+    border-radius: 10px;
+}
+.signup_header{
+    text-align: center;
+    letter-spacing: normal;
+    padding: 0;
+    color: black;
+    
+}
+.signup_details{
+  text-align: center;
+}
+.designation{
+    padding: 5px;
+    border-radius: 15px;
+    margin:  2vh 0vh;
+    width: 70%;
+    border: 0.1px solid black;
+    font-weight: 20;
+    font-size: small;
+ 
+}
+
+#desc{
+    width: 100%;
+}
+
+
+.sucess{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}

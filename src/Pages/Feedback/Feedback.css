@@ -1,0 +1,36 @@
+.feedback_page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Feedback{
+    box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+    padding: 51px;
+    border-radius: 10px;
+
+}
+.Feedback_header{
+    text-align: center;
+    letter-spacing: normal;
+    padding: 0;
+    color: black;
+    
+}
+
+.button_submitfeed{
+    width: 70%;
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    padding:7px ;
+    margin: 5px 0;
+    margin-left: 2.5rem !important;
+    border: 0.2px solid black;
+}
+.button_submitfeed:hover{
+    transition: 0.6s;
+    background-color: #20BDFF;
+    color: white;
+    opacity: 0.5;
+}

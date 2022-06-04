@@ -1,0 +1,13 @@
+.engine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.engine input{
+    width: 700px;
+}
+@media screen and (max-width: 800px) {
+    .engine input{
+        width: auto;
+    }
+}

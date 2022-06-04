@@ -1,0 +1,49 @@
+.biggi {
+  width: 100vw;
+  height: 100vh;
+}
+.SignIn_container {
+  max-width: 100%;
+  position: absolute;
+  min-width: 19pc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #dbdbdb2a;
+}
+.SignIn {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.719);
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+.SignIn_header {
+  text-align: center;
+  letter-spacing: normal;
+  padding: 0;
+  color: black;
+}
+.designation {
+  padding: 5px;
+  border-radius: 15px;
+  margin: 2vh 0vh;
+  width: 100%;
+  font-weight: 20;
+  font-size: small;
+
+  border: 0.2px solid black;
+}
+#desc {
+  width: 100%;
+}
+#a {
+  text-decoration: none;
+  color: black;
+  border: none;
+}
+#a:hover {
+  color: #20bdff;
+}
+.SignIn_details {
+  text-align: center;
+}

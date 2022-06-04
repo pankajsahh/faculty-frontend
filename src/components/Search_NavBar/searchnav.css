@@ -1,0 +1,25 @@
+.dnlodnavigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 0;
+    background: #dbdbdb41;
+    border-radius: 5px;
+}
+.blink{
+    
+    cursor: pointer;
+     transition: 0.5s;
+     border-radius: 5px;
+     color: white !important;
+     background: #20bcff8f;
+}
+
+@media only screen and (max-width: 800px) {
+    .dnlodnavigator{
+        flex-wrap: wrap;
+    }
+   
+    
+    }

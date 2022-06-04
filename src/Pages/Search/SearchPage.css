@@ -1,0 +1,21 @@
+.search_view{
+    display: flex;
+    justify-content: left;
+}
+
+.flex_col_search{
+    width: 100%;
+}
+.top_search_nav{
+    padding: 20px 10px;
+}
+.search_content_Box{
+    padding: 10px 20px;
+}
+@media only screen and (max-width: 800px) {
+    .search_view{
+        flex-wrap: wrap;
+    }
+   
+    
+    }

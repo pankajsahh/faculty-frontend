@@ -1,0 +1,43 @@
+/* color decided #F2F2F2 60 #dbdbdb41 30 #20BDFF 10 */
+.mainLogo{
+   
+    width: 150px;
+    margin: -8px 50px;
+    
+}
+
+.list_of_tabs li{
+    /* border: 1px solid red; */
+    list-style: none;
+    margin: 20px 40px 20px 20px;
+    background: #dbdbdb41;
+    /* background-color: #071426; */
+    padding: 15px 30px;
+    border-radius: 8px;
+    /* border:2px solid #bc4123; */
+    
+    margin-top: 40px;
+    min-width: fit-content;
+    color: initial ;
+    /* color: white; */
+}
+
+@media screen and (max-width: 800px) {
+    .list_of_tabs li{
+        margin: 10px;
+        /* padding: 0; */
+    }
+    .list_of_tabs{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+   
+  }
+.list_of_tabs li:hover{
+    background-color: #20bcff8f ;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
