@@ -1,70 +1,54 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# faculty publication  ([link to website ](https://facultyapp.netlify.app/))
 
-## Available Scripts
+faculty publication management app for college faculty to manage their publication data faculty has his/her profile and he/she can do curd operation on his data 
+,  django TOKEN authentication is used for accout login and DJANGO REST-FRAMEWORK is used to create api so that we can use api for various frontend !!!faculty publication management app for college faculty to manage their publication data faculty has his/her profile and he/she can do curd operation on his data django TOKEN authentication is used for accout login and DJANGO REST-FRAMEWORK is used to create api so that we can use api for various frontend !!!
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- sign in page
+- home page (user can add Publications)
+- search page ( to search data of currently published publications and download in exel format)
+- update page (here user can update delete his added publications)
+- create new user page (register page)
+- feedback page( if any user send feedback we will recive that feedback via email)
+- contact us
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
+### sign in page
+<hr/>
 
-### `npm run build`
+![App Screenshot](Screenshots/Screenshot%20(6).png)
+# home page
+<hr/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](Screenshots/home.png)
+# search page ( to search data of currently published publications)
+<hr/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![App Screenshot](Screenshots/search.png)
+![App Screenshot](Screenshots/search2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# update page (here user can update delete his added publications)
+<hr/>
 
-### `npm run eject`
+![App Screenshot](Screenshots/update%20(2).png)
+![App Screenshot](Screenshots/update.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# create new user page (register page)
+![App Screenshot](Screenshots/register.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# feedback page( if any user send feedback we will recive that feedback via email)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<hr/>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![App Screenshot](Screenshots/feedback.png)
 
-## Learn More
+# contact us
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<hr/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![App Screenshot](Screenshots/contacts.png)
