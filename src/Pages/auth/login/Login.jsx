@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useContext, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Route, Router, useRoutes } from "react-router-dom";
 import "./Login.css";
 import Button from "./Button";
 import React from "react";
@@ -64,6 +64,9 @@ const SignIn = () => {
 
   async function authinspector() {
     //will take data and from user and send to server and response email will sent to conversion into id for further use
+    localStorage.setItem("myid", "[]");
+    setsucess(true);
+  
     axios
       .post(`${apilink}/account/login/`, data)
       .then(function (response) {
@@ -74,9 +77,11 @@ const SignIn = () => {
           seterr("NO response from server 404 maybe bad enter");
         } else if (erro.response?.status === 400) {
           seterr("Invalid Username or Password");
+          
         } else {
           seterr("Login failed");
         }
+       
       });
    
   }
